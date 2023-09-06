@@ -26,7 +26,7 @@ I highly suggest to clean your input fasta files. Basically, remove anything tha
 >TranscriptID gene=GeneID
 ```
 It is relatively easy to do it via regex.
-According to the authors tutuorial, we have to have only one transcript per gene (primary transcript). They offered a python code to do that for you, if you clean your fasta file as I mmentioned above.
+According to the authors tutuorial, we have to have only one transcript per gene (primary transcript). They offered a python code to do that for you, if you clean your fasta file as I mentioned above.
 Let's assume you are in a folder with all of your fasta input files that are preprocessed and the extension for all of them is `.fa`. Let's assume you downloaded the Orthofinder in your home folder (you can change the command the way you like). Then:
 ```
 for f in *fa ; do python $HOME/OrthoFinder/tools/primary_transcript.py $f ; done
