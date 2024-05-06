@@ -3,7 +3,7 @@
 ## Setup
 I prefer to set up the environment via conda. First, load the anaconda module:
 ```
-module load anaconda3/2021.05
+module load anaconda3/2023.09-0
 ```
 Then, you can create a conda environment with a desired name and install dependencies:
 ```
